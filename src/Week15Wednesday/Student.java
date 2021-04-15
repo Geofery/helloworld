@@ -26,8 +26,7 @@ public class Student {
 
   @Override
   public String toString() {
-    return "Name: " + name + "\n" +
-        "Grade: " + Arrays.toString(grades) +
-        "\nGrades: " + Arrays.toString(gradeCurve);
+    return "Student name: " + name + "\n" +
+        "Grade: " + Arrays.toString(grades);
   }
 }
